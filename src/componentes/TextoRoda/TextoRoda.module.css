@@ -1,0 +1,13 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 6rem;
+  color: #eee;
+}
+.Container span {
+  display: flex;
+  margin: 2rem;
+  text-align: center;
+}
