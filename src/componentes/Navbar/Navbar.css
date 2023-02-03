@@ -22,13 +22,13 @@ header {
 
 nav a {
   margin: 0 1rem;
-  color: var(--textColor);
+  color: var(--CorTexto);
   text-decoration: none;
   cursor: pointer;
 }
 
 nav a:hover {
-  color: var(--ColorHover);
+  color: var(--CorFontApagada);
 }
 
 header .nav-btn {
@@ -37,10 +37,10 @@ header .nav-btn {
   background: transparent;
   border: none;
   outline: none;
-  color: var(--textColor);
   visibility: hidden;
   opacity: 0;
   font-size: 1.8rem;
+  color: var(--CorTexto);
 }
 
 header div,

@@ -10,6 +10,12 @@
   fill: #eee;
   margin-right: 1rem;
 }
+.Container svg:hover {
+  width: 2rem;
+  height: 3rem;
+  fill: var(--CorFontApagada);
+  margin-right: 1rem;
+}
 @media only screen and (max-width: 1024px) {
   .Container svg {
     width: 2rem;

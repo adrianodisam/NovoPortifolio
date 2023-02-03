@@ -1,4 +1,5 @@
 import React from 'react';
+import SvgGitHub from '../SvgGitHub/SvgGitHub';
 import SvgInstagram from '../SvgInstagram/SvgInstagram';
 import SvgLinkedin from '../SvgLinkedin/SvgLinkedin';
 import Styles from './RedeSociais.module.css';
@@ -17,6 +18,9 @@ const RedeSociais = (props) => {
         target="blank"
       >
         <SvgLinkedin link="https://www.linkedin.com/in/camila-santos-5853b2b7" />{' '}
+      </a>
+      <a href="https://github.com/adrianodisam" target="blank">
+        <SvgGitHub />
       </a>
     </div>
   );

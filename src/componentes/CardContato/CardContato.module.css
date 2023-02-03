@@ -9,43 +9,28 @@
   font-family: 'Menu1';
   font-style: normal;
   font-weight: 300;
-  font-size: 19px;
-  line-height: 21px;
+  font-size: 2rem;
+  line-height: 3rem;
   color: var(--CorTexto);
   text-align: center;
 }
-.Container ul {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  width: 50rem;
+.Container small {
+  color: var(--CorFontApagada);
+  text-align: center;
 }
-.Container li {
-  color: var(--CorTexto);
-  list-style: none;
-  padding: 0.5rem;
-}
-.Container li a {
-  text-decoration: none;
-  color: var(--CorTexto);
-}
-.Container img {
-  width: 2rem;
-}
+
 .Container svg {
   fill: #555;
+}
+.Container svg:hover {
+  fill: var(--CorTexto);
 }
 
 @media only screen and (max-width: 1024px) {
   .Container {
     flex-direction: column;
   }
-  .Container ul {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 14rem;
+  .Container h1 {
+    font-size: 1.3rem;
   }
 }
