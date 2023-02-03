@@ -6,7 +6,7 @@ const Footer = () => {
   const dataAtual = new Date();
   const anoAtual = dataAtual.getFullYear();
   return (
-    <div className={Styles.Container}>
+    <div id="Contato" className={Styles.Container}>
       <TextoRoda
         texto={` Copyright © ${anoAtual} - Site de portfolio | Desenvolvido por: Sampaio S.S
         `}

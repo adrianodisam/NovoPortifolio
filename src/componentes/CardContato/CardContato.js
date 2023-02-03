@@ -9,7 +9,7 @@ const CardContato = () => {
   const whats = ['(11)99953-7132'];
 
   return (
-    <div className={Styles.Container}>
+    <div id="Contato" className={Styles.Container}>
       <div>
         <small> Envie um e-mail para</small>
         <h1>Adrianodisam@gmail.com</h1>
