@@ -1,0 +1,38 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--corFundo);
+  border-bottom: 0.1 solid var(--CorBorda);
+  width: 100%;
+  flex-direction: column;
+  padding: 2rem;
+}
+.Container h1 {
+  color: var(--CorFontApagada);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 45px;
+  text-align: center;
+}
+.Container h2 {
+  color: var(--CorTexto);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+  font-size: 2rem;
+}
+.Container p {
+  color: var(--CorFontApagada);
+  /* font-style: normal;
+  font-weight: 300;
+  font-size: 16px; */
+  line-height: 25px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}

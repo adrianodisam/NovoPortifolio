@@ -11,7 +11,7 @@
   font-weight: 300;
   font-size: 19px;
   line-height: 21px;
-  color: #555;
+  color: var(--CorTexto);
   text-align: center;
 }
 .Container ul {
@@ -22,13 +22,13 @@
   width: 50rem;
 }
 .Container li {
-  color: #555;
+  color: var(--CorTexto);
   list-style: none;
   padding: 0.5rem;
 }
 .Container li a {
   text-decoration: none;
-  color: #555;
+  color: var(--CorTexto);
 }
 .Container img {
   width: 2rem;

@@ -6,6 +6,9 @@ import WhatsAppContato from './componentes/WhatsAppContato/WhatsAppContato';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'aos/dist/aos.css';
 import Contato from './componentes/Contato/Contato';
+import Sobre from './componentes/Sobre/Sobre';
+import Habilidades from './componentes/Habilidades/Habilidades';
+import Projetos from './componentes/Projetos/Projetos';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       />
       <Navbar />
       <Header />
+      <Sobre />
+      <Habilidades />
+      <Projetos />
       <Contato />
       <Footer />
     </div>

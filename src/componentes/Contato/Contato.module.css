@@ -5,8 +5,9 @@
   width: 100%;
   flex-direction: column;
   padding: 2rem;
+  background-color: var(--CorFundo);
+  border-bottom: solid 1px var(--CorBorda);
 }
-
 .ContainerContato {
   display: flex;
   align-items: center;

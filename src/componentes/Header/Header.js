@@ -1,12 +1,11 @@
 import React from 'react';
 import Styles from './Header.module.css';
-import Video from '../Video/Video';
 import RedeSociais from '../RedeSociais/RedeSociais';
-
+import Banner from '../Banner/Banner';
 const Header = () => {
   return (
     <div className={Styles.Container} id="Home">
-      <Video />
+      <Banner />
       <RedeSociais posicao="right" />
     </div>
   );

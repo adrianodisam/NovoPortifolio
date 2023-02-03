@@ -21,4 +21,8 @@
   --secondaryColor: #db2b39;
   --textColor: #ffc1c1;
   --ColorHover: #eee;
+  --CorFundo: #1c1c1c;
+  --CorBorda: hsla(0, 0%, 67%, 0.1);
+  --CorFontApagada: #aaa;
+  --CorTexto: #fff;
 }

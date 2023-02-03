@@ -10,6 +10,8 @@ function Navbar() {
   const titulos = [
     { nome: 'Home', id: 'Home' },
     { nome: 'Sobre', id: 'Sobre' },
+    { nome: 'Habilidades', id: 'Habilidades' },
+    { nome: 'Projetos', id: 'Projetos' },
     { nome: 'Contato', id: 'Contato' },
   ];
 

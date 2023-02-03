@@ -1,7 +1,5 @@
 import React from 'react';
-
 import Styles from './Main.module.css';
-
 import Contato from '../Contato/Contato';
 
 const Main = () => {

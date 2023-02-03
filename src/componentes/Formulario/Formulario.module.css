@@ -4,6 +4,7 @@
   align-items: center;
   width: 100%;
   flex-direction: column;
+  border: 1px solid var(--CorBorda);
 }
 .Container form {
   display: flex;

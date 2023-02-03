@@ -6,7 +6,7 @@ const Contato = (props) => {
   return (
     <div className={Styles.Container}>
       <div className={Styles.ContainerContato} id="Contato">
-        <Formulario />
+        {/* <Formulario /> */}
         <CardContato />
       </div>
     </div>
