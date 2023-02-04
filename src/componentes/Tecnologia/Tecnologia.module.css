@@ -12,6 +12,7 @@
 }
 .Container:hover {
   background: hsla(0, 0%, 37%, 0.1);
+  width: 30%;
 }
 .Container p {
   color: var(--CorFontApagada);

@@ -1,0 +1,25 @@
+.Container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.5s;
+  gap: 1rem;
+  width: 23%;
+  text-align: center;
+}
+
+.Container h3 {
+  color: var(--CorTexto);
+}
+.Container p {
+  color: var(--CorTexto);
+}
+
+@media only screen and (max-width: 1024px) {
+  .Container {
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 90%;
+  }
+}
