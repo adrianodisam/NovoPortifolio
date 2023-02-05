@@ -21,7 +21,7 @@ function Navbar() {
 
   return (
     <header>
-      <Logo logo={imagem} tamanho="5rem" />
+      <Logo logo={imagem} tamanho="2rem" />
 
       <nav ref={navRef}>
         {titulos.map((titulo) => (
