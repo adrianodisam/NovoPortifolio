@@ -9,11 +9,12 @@ const TextoSobre = () => {
       <Skills
         tamanho="55%"
         titulo="SOBRE"
-        texto="Desenvolvedor front-end, amante e hater de CSS HTML, em constante evolução e aprendizado ao Fullstack."
+        texto="Desenvolvedor front-end, amante e de CSS, HTML e REACT, em constante evolução e aprendizado ao Fullstack.
+        Formado em Ciência da Computação na Universidade Paulista - UNIP no ano de 2022"
       />
       <Skills
         tamanho="35%"
-        titulo="MORA EM"
+        titulo="ATUALMENTE MORO EM"
         texto="Embu das Artes São Paulo Brasil"
       />
     </div>

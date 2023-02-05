@@ -7,9 +7,6 @@
   background-color: var(--CorFundo);
   border-bottom: 1px solid var(--CorBorda);
 }
-.Container h1 {
-  color: var(--CorTexto);
-}
 
 @media only screen and (max-width: 1024px) {
   .Container {
