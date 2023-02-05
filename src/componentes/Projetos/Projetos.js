@@ -5,7 +5,7 @@ const Projetos = () => {
   return (
     <div id="Projetos" className={Styles.Container}>
       {' '}
-      <h1>Projetos</h1>
+      <h1>Em Desenvolvimento</h1>
     </div>
   );
 };

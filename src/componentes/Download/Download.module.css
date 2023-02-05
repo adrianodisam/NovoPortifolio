@@ -1,0 +1,19 @@
+.Container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.5s;
+  gap: 1rem;
+  text-align: center;
+  border: solid 1px var(--CorBorda);
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.Container a {
+  text-decoration: none;
+  color: var(--CorTexto);
+}
+.Container:hover {
+  background-color: hsla(0, 0%, 37%, 0.1);
+}
