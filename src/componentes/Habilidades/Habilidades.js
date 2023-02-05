@@ -9,7 +9,7 @@ const Habilidades = () => {
       <Skills
         tamanho="45%"
         titulo="Foco e skills"
-        texto="Me considero muito aplicado na resolução de problemas.
+        texto=" Muito aplicado na resolução de problemas.
         Compartilhar soluções gera inspiração, quero ter a oportunidade de transformar Layouts em visiblidade mudar negócios transformar empresas"
       />
       <CaixaTecnologias />

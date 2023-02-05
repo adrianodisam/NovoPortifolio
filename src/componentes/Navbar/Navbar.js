@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../Logo/Logo';
 import '../Navbar/Navbar.css';
-import imagem from '../Navbar/vecteezy_man-with-beard-hipster-barbershop-vector-emblem-bearded_11797256-removebg-preview.png';
+import imagem from '../Navbar/coding_html_programming_development_code_icon_220910.png';
 import { Link } from 'react-scroll';
 
 function Navbar() {
