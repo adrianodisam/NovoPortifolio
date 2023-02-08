@@ -1,0 +1,23 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9rem;
+  height: 2rem;
+  border: 1px solid var(--CorBorda);
+  color: var(--CorTexto);
+  cursor: pointer;
+}
+.Container:hover {
+  background: hsla(0, 0%, 37%, 0.1);
+}
+.Container a {
+  text-decoration: none;
+  color: var(--CorTexto);
+}
+
+@media only screen and (max-width: 1024px) {
+  .Container {
+    margin-top: 2rem;
+  }
+}
