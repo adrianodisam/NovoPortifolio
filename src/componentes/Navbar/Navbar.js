@@ -25,7 +25,6 @@ function Navbar() {
 
       <nav ref={navRef}>
         {titulos.map((titulo) => (
-          // <a href="/#">{titulo}</a>
           <Link
             activeClass="active"
             to={titulo.id}
@@ -38,7 +37,6 @@ function Navbar() {
             {titulo.nome}
           </Link>
         ))}
-        {/* Sobre */}
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>

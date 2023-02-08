@@ -28,13 +28,20 @@
   .Container {
     display: flex;
     width: 29%;
-    height: 2.2rem;
+    height: 0.2rem;
+    background-color: transparent;
+
+    margin-top: 2rem;
   }
   .Container svg {
     display: none;
   }
   .Container p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-align: center;
+    border: 1px solid var(--CorFontApagada);
+    border-radius: 2rem;
+    background: hsla(0, 0%, 67%, 0.1);
+    padding: 0.3rem;
   }
 }
