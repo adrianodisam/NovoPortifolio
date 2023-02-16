@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   padding: 1rem;
   border: 1px solid var(--CorBorda);
   background: hsla(0, 0%, 37%, 0.1);

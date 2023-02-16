@@ -5,7 +5,7 @@ import imagemFundo from './imagemSobre-removebg-preview.png';
 const FotoSobre = () => {
   return (
     <div className={Styles.Container}>
-      <img src={imagemFundo} alt="Telefone" />
+      <img src={imagemFundo} alt="perfil" />
     </div>
   );
 };
