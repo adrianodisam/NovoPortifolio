@@ -37,8 +37,12 @@
 
 @media only screen and (max-width: 1024px) {
   .Container img {
-    width: 13rem;
+    width: 15rem;
     opacity: 0.8;
-    padding: 10px;
+  }
+  .Container {
+    width: 70%;
+
+    /* background: hsla(0, 0%, 67%, 0.1); */
   }
 }
