@@ -1,11 +1,11 @@
 import React from 'react';
+
 import Skills from '../Skills/Skills';
 import Styles from './TextoSobre.module.css';
 
 const TextoSobre = () => {
   return (
     <div className={Styles.Container}>
-      {' '}
       <Skills
         tamanho="55%"
         titulo="SOBRE"

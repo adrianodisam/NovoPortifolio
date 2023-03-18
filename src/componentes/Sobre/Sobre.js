@@ -1,4 +1,5 @@
 import React from 'react';
+
 import FotoSobre from '../FotoSobre/FotoSobre';
 import TextoCurriculo from '../TextoCurriculo/TextoCurriculo';
 import TextoSobre from '../TextoSobre/TextoSobre';
