@@ -8,7 +8,6 @@ const Habilidades = () => {
   return (
     <div id="Habilidades" className={Styles.Container}>
       <div className={Styles.ContainerAnima}>
-        {' '}
         <AnimacaoContato />
         <Skills
           tamanho="45%"
