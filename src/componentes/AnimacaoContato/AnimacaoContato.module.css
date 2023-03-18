@@ -27,21 +27,22 @@
 }
 
 .bar {
-  width: 500px;
+  position: absolute;
+  width: 400px;
   height: 12.5px;
   background: var(--CorBorda);
   border-radius: 30px;
-  transform: rotate(-15deg);
+  transform: rotate(-19deg);
   animation: up-down6123 3s ease-in-out 1s infinite alternate;
 }
 
 @keyframes up-down6123 {
   from {
-    transform: rotate(-15deg);
+    transform: rotate(-60deg);
   }
 
   to {
-    transform: rotate(15deg);
+    transform: rotate(1deg);
   }
 }
 
