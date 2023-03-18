@@ -1,4 +1,4 @@
-.Container {
+/* .Container {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -16,4 +16,50 @@
 }
 .Container:hover {
   background-color: hsla(0, 0%, 37%, 0.1);
+} */
+
+.btn {
+  width: 140px;
+  height: 50px;
+  background: linear-gradient(to top, #0015, #1237, #2348);
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.btn span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+  color: #fff;
+}
+
+.btn_text_one {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn_text_two {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn:hover .btn_text_one {
+  top: -100%;
+}
+
+.btn:hover .btn_text_two {
+  top: 50%;
 }
