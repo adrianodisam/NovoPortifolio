@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid var(--CorBorda);
+  /* border-bottom: 1px solid var(--CorBorda); */
   background-color: var(--CorFundo);
 }
 @media only screen and (max-width: 1024px) {

@@ -6,7 +6,7 @@
   width: 100%;
   height: 40rem;
   background-color: var(--CorFundo);
-  border-bottom: 1px solid var(--CorBorda);
+  /* border-bottom: 1px solid var(--CorBorda); */
 }
 
 .Container h1 {

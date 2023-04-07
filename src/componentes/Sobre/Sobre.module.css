@@ -4,7 +4,7 @@
   align-items: center;
   width: 100%;
   height: 30rem;
-  border-bottom: 1px solid var(--CorBorda);
+  /* border-bottom: 1px solid var(--CorBorda); */
   background-color: var(--CorFundo);
 }
 
