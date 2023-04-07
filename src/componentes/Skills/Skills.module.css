@@ -15,7 +15,6 @@
 .Container p {
   color: var(--CorTexto);
 }
-
 @media only screen and (max-width: 1024px) {
   .Container {
     flex-direction: column;

@@ -28,7 +28,7 @@
 
 .bar {
   position: absolute;
-  width: 400px;
+  width: 200px;
   height: 12.5px;
   background: var(--CorBorda);
   border-radius: 30px;

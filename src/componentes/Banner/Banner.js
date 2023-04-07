@@ -1,5 +1,6 @@
 import React from 'react';
 import Styles from './Banner.module.css';
+import Flutuante from '../Flutuante/Flutuante';
 
 const Banner = () => {
   return (
@@ -11,7 +12,8 @@ const Banner = () => {
         em Javascript React/Node. <br />
         Codificando aplicações elegantes, objetivas e otimizadas para o SEO{' '}
         <br /> (otimização de mecanismos de busca) .
-      </p>
+      </p>{' '}
+      <Flutuante />
     </div>
   );
 };
