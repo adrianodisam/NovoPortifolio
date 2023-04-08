@@ -21,7 +21,12 @@
 .btn {
   width: 140px;
   height: 50px;
-  background: linear-gradient(to top, #0015, #1237, #2348);
+  background: linear-gradient(
+    to top,
+    hsla(0, 0%, 67%, 0.1),
+    hsla(0, 0%, 67%, 0.3),
+    hsla(0, 0%, 67%, 0.1)
+  );
   color: #fff;
   border-radius: 50px;
   border: none;

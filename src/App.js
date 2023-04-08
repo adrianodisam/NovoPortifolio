@@ -9,6 +9,7 @@ import Contato from './componentes/Contato/Contato';
 import Sobre from './componentes/Sobre/Sobre';
 import Habilidades from './componentes/Habilidades/Habilidades';
 import Projetos from './componentes/Projetos/Projetos';
+import AnimacaoContato from './componentes/AnimacaoContato/AnimacaoContato';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
       />
       <Navbar />
       <Header />
+
       <Sobre />
+      <AnimacaoContato />
       <Habilidades />
       <Projetos />
       <Contato />
