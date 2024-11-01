@@ -1,0 +1,15 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  /* background: linear-gradient(hsla(0, 0%, 67%, 0.1), hsla(0, 0%, 6%, 0.2)),
+    url(../MobPc/pessoal.jpg) no-repeat; */
+  background-size: contain;
+  background-position: center;
+  border-radius: 1rem;
+  background-color: azure;
+  width: 20rem;
+  height: 15rem;
+}
