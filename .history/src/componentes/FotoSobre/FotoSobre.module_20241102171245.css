@@ -3,6 +3,10 @@
   justify-content: center;
   align-items: center;
   width: 50%;
+  /* border: solid 4px var(--CorBorda); */
+  /* border-radius: 50%; */
+  /* background: hsla(0, 0%, 67%, 0.1); */
+
 }
 
 .Container img {
@@ -13,7 +17,7 @@
   height: 400px; /* Ajuste o tamanho conforme necessário */
   object-fit: cover;
   border-radius: 40%; /* Raio para bordas arredondadas */
-  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.7);
+  box-shadow: 0 5rem 30px rgba(0, 0, 0, 0.5);
   
 }
 
@@ -24,5 +28,6 @@
   }
   .Container {
     width: 70%;
+    /* background: hsla(0, 0%, 67%, 0.1); */
   }
 }

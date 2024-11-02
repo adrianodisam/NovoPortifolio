@@ -5,7 +5,7 @@ import imagemFundo from './perfil.jpeg';
 const FotoSobre = () => {
   return (
     <div className={Styles.Container}>
-      <img  src={imagemFundo} alt="perfil" />
+      <img className="blurred-border" src={imagemFundo} alt="perfil" />
     </div>
   );
 };

@@ -8,7 +8,7 @@ import projeto03 from './monica.png'
 const Projetos = () => {
   const url01= "https://tamires-dqq3g6urt-umdevadriano.vercel.app/"
   const url02 = "https://front-end-pdf-extrator.vercel.app/"
-  const url03 = "https://monica-designer.vercel.app"
+  const url03 = "https://front-end-pdf-extrator.vercel.app/"
 
   return (
     <div id="Projetos" className={Styles.Container}>

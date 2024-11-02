@@ -1,0 +1,48 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  /* border: solid 4px var(--CorBorda); */
+  /* border-radius: 50%; */
+  /* background: hsla(0, 0%, 67%, 0.1); */
+}
+
+
+.Container img {
+  width: 300px; /* Ajuste conforme necessário */
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1; /* Certifica-se de que a imagem está acima do gradiente */
+}
+
+/* Efeito esfumaçado ao redor da imagem */
+.Container::before {
+  content: '';
+  position: absolute;
+  width: 400px; /* Ligeiramente maior que a imagem para criar o efeito esfumaçado */
+  height: 400px;
+  background: radial-gradient(circle, rgba(28, 28, 28, 0) 50%, #1c1c1c 100%);
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0; /* Fica atrás da imagem */
+  pointer-events: none;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .Container img {
+    width: 15rem;
+    opacity: 0.8;
+  }
+  .Container {
+    width: 70%;
+
+    /* background: hsla(0, 0%, 67%, 0.1); */
+  }
+}

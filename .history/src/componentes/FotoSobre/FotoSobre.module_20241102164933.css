@@ -1,0 +1,44 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  /* border: solid 4px var(--CorBorda); */
+  /* border-radius: 50%; */
+  /* background: hsla(0, 0%, 67%, 0.1); */
+}
+
+.Container img {
+  display: flex;
+  width: 15rem;
+  transition: all 0.4s;
+  width: 300px; /* Ajuste o tamanho conforme necessário */
+  height: 400px; /* Ajuste o tamanho conforme necessário */
+  object-fit: cover;
+  border-radius: 40%; /* Raio para bordas arredondadas */
+  box-shadow: 0 0 30px 15px rgba(28, 28, 28, 0.8); /* Sombra esfumaçada */
+}
+/* Adiciona o efeito esfumaçado ao redor da imagem */
+.Container::before {
+  content: '';
+  position: absolute;
+  width: 300px; /* Um pouco maior que a imagem para o efeito de borda */
+  height: 400px;
+  background: radial-gradient(circle, rgba(40, 40, 40, 0.1) 50%, #1c1c1c 100%);
+  border-radius: 15px;
+  z-index: 0;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .Container img {
+    width: 15rem;
+    opacity: 0.8;
+  }
+  .Container {
+    width: 70%;
+
+    /* background: hsla(0, 0%, 67%, 0.1); */
+  }
+}

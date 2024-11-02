@@ -1,0 +1,34 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  /* border: solid 4px var(--CorBorda); */
+  /* border-radius: 50%; */
+  /* background: hsla(0, 0%, 67%, 0.1); */
+
+  background: radial-gradient(circle, transparent, #1c1c1c 70%);
+}
+
+.Container img {
+  display: flex;
+  width: 15rem;
+  transition: all 0.4s;
+  object-fit: cover;
+  border-radius: 10px; /* Raio para bordas arredondadas */
+  box-shadow: 0 0 30px 15px rgba(28, 28, 28, 0.8); /* Sombra esfumaçada */
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .Container img {
+    width: 15rem;
+    opacity: 0.8;
+  }
+  .Container {
+    width: 70%;
+
+    /* background: hsla(0, 0%, 67%, 0.1); */
+  }
+}
