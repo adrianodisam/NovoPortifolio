@@ -12,6 +12,11 @@ const TextoSobre = () => {
         texto="Desenvolvedor front-end, amante e de CSS, HTML e REACT, em constante evolução e aprendizado ao Fullstack.
         Formado em Ciência da Computação na Universidade Paulista - UNIP no ano de 2022"
       />
+      <Skills
+        tamanho="35%"
+        titulo="ATUALMENTE MORO EM"
+        texto="Embu das Artes São Paulo Brasil"
+      />
     </div>
   );
 };
